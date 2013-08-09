@@ -1,0 +1,21 @@
+{
+  "name": "dirty-compact",
+  "version": "0.0.0",
+  "description": "Compact a node-dirty database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "keywords": [
+    "dirty",
+    "compact"
+  ],
+  "author": "Beau Gunderson <beau@beaugunderson.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dirty": "~0.9.7",
+    "commander": "~2.0.0",
+    "fs-copy": "0.0.2",
+    "async": "~0.2.9"
+  }
+}
