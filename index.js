@@ -1,5 +1,5 @@
 var async = require('async');
-var copy = require('fs-copy');
+var copy = require('fs.extra').copy;
 var dirty = require('dirty');
 var fs = require('fs');
 var _ = require('lodash');
