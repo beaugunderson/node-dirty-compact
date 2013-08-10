@@ -12,7 +12,7 @@ exports.compact = function (database, backup, cb) {
 
     var db = dirty(database);
 
-    dirty.on('load', function () {
+    db.on('load', function () {
       var data = {};
 
       db.forEach(function (key, value) {
