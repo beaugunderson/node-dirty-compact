@@ -1,7 +1,13 @@
 {
   "name": "dirty-compact",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Compact a node-dirty database.",
+  "homepage": "https://github.com/beaugunderson/node-dirty-compact",
+  "bugs": "https://github.com/beaugunderson/node-dirty-compact/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beaugunderson/node-dirty-compact.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "mocha -R spec"
